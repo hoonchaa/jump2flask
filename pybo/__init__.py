@@ -4,6 +4,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flaskext.markdown import Markdown
 from sqlalchemy import MetaData
 
+#첫번째 커밋
+
 naming_convention = {
     "ix": 'ix_%(column_0_label)s',
     "uq": "uq_%(table_name)s_%(column_0_name)s",
